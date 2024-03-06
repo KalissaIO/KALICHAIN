@@ -8,30 +8,32 @@ To initialize the Kalichain network, the following genesis configuration is esse
 
 ```json
 {
-  "config": {
-    "chainId": 654,
-    "homesteadBlock": 0,
-    "eip150Block": 0,
-    "eip155Block": 0,
-    "eip158Block": 0,
-    "byzantiumBlock": 0,
-    "constantinopleBlock": 0,
-    "petersburgBlock": 0,
-    "istanbulBlock": 0,
-    "berlinBlock": 0,
-    "clique": {
-      "period": 5,
-      "epoch": 30000
-    }
-  },
-  "difficulty": "1",
-  "gasLimit": "8000000",
-  "extradata": "<network-specific-data>",
-  "alloc": {
-    "<address1>": { "balance": "<balance1>" },
-    "<address2>": { "balance": "<balance2>" }
+    "config": {
+      "chainId": 654,
+      "homesteadBlock": 0,
+      "eip150Block": 0,
+      "eip155Block": 0,
+      "eip158Block": 0,
+      "byzantiumBlock": 0,
+      "constantinopleBlock": 0,
+      "petersburgBlock": 0,
+      "istanbulBlock": 0,
+      "berlinBlock": 0,
+      "clique": {
+        "period": 5,
+        "epoch": 30000
+      }
+    },
+    "difficulty": "1",
+    "gasLimit": "8000000",
+    "extradata": "0x000000000000000000000000000000000000000000000000000000000000000047e84757cf1a1ac54d55d395c6234f1e35ee372c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "alloc": {
+        "59d1D6e83e7d4552B7C56d12218FA38971022caa": { "balance": "199999998000000000000000000"},
+        "8551e2DB9d59907B390FEb7faBfCFF78c1ff720D": { "balance": "2000000000000000000"}
+  
+      }
   }
-}
+  
 ```
 
 This genesis file is a critical first step, ensuring all network nodes begin from a common initial state, enabling seamless interaction and transaction verification under the POA consensus model.
