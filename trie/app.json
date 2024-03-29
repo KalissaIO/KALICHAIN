@@ -1,0 +1,56 @@
+{
+  "img": "/img/logo.png",
+  "copyright": "©2023 KALICHAIN, All Rights Reserved By",
+  "owner": "@loki463",
+  "ownerLink": "https://kalichain.com",
+  "socialData": [
+   {
+      "id": 1,
+      "link": "https://twitter.com/kalichainoff",
+      "icon": "icon-social-twitter"
+    },
+    {
+      "id": 2,
+      "link": "https://www.linkedin.com/company/kalichain",
+      "icon": "icon-social-linkedin"
+    },
+   
+    {
+      "id": 3,
+      "link": "https://discord.com/invite/g7t6gCaKnj",
+      "icon": "icon-social-vkontakte"
+    },
+    {
+      "id": 4,
+      "link": "https://www.youtube.com/@kalichain",
+      "icon": "icon-social-youtube"
+    }
+  ],
+  "widgetData": [
+    {
+      "id": 1,
+      "text": "Kalichain",
+      "link": "https://kalichain.com"
+    },
+    {
+      "id": 2,
+      "text": "kalicertif",
+      "link": "https://kalicertif.com"
+    },
+    {
+      "id": 3,
+      "text": "Kalissa",
+      "link": "https://kalissa.io"
+    },
+    {
+      "id": 4,
+      "text": "Whitepaper",
+      "link": "https://whitepaper.kalichain.com"
+    },
+    {
+      "id": 5,
+      "text": "Loki Paper",
+      "link": "https://whitepaper.kalichain.com/lokipaperen/"
+    }
+  ]
+}
